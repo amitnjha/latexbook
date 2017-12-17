@@ -1,7 +1,7 @@
 \documentclass[twocolumn,12pt]{article}
 
 \title{Chapter 2 Examples}
-\author{Amit Jha}
+\author{Amit Jha \and Vinaya Sheni}
 
 
 \begin{document}
@@ -36,5 +36,68 @@ Here is subscript and superscript formula -- \(a_1 + b_1 = 2\) superscript \(a^n
 Let $x$ be a prime such that $y > 2x$
 
 \begin{math} x + 3+ y_1 + x^{2y} = 89 \end{math}
+
+\subsection{A Sectioning Command}
+\LaTeX automatically generates the section numbers. Blank lines before or after sectiontiing command have no effect.
+
+This is an example of a quotation text
+\begin{quote}
+  This part is going to be part of a quotation which will basically have some indentation in it.
+  This is second line of indented quote
+\end{quote}
+It is indented on both the margins foe convinience.
+
+Our presidents have been known for their pithy remarks.
+\begin{quote}
+  The buck stops here \ldots \emph{Harry Truman}
+
+  I am not a crook \ldots \emph{Richard Nixon}
+
+  It's no exaggeration to say that undecided could go one way or the other \ldots \emph{George Bush}
+\end{quote}
+
+Our presidents have been known for their pithy remarks.
+\begin{quotation}
+  The buck stops here \ldots \emph{Harry Truman}
+
+  I am not a crook \ldots \emph{Richard Nixon}
+
+  It's no exaggeration to say that undecided could go one way or the other \ldots \emph{George Bush}
+\end{quotation}
+
+\subsection{Lists}
+\begin{itemize}
+  \item Each List Item is marked with a \emph {label}. The labels in this itemaized list are bullets.
+  \item Lists can be nested in one another.
+    \begin {enumerate}
+    \item This will be a numbered item in the list.
+    \item This is another numbered item.
+      \begin {enumerate}
+      \item this item is within a numbered item which is with a list.
+      \end{enumerate}
+      
+    \end {enumerate}
+\end{itemize}
+
+\subsubsection{Description}
+Three animals that you should know about are.
+\begin{description}
+\item[gnat] A small animal found in the North Woods that causes no end of trouble.
+\item[gnu] A large animal found in the crossword puzzle that causes no end of trouble.
+\item[armadillo] A medium-sized animal named after a medium sized Texas city.
+\end{description}
+
+\subsection{Displayed Formulas}
+There are two ways to display math formulas.
+
+\[x' + y^{2} = z_{i} ^ {2}\]
+
+and here is same equation numbered.
+
+\begin{equation}
+  x' + y^{2} = z_{i} ^ {2}
+\end{equation}
+
+\subsection{Declarations}
 
 \end{document}
